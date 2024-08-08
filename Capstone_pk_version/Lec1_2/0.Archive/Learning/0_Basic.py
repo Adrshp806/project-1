@@ -86,6 +86,8 @@ Haan, list aur dictionary bhi Python mein data types hote hain. Yeh dono contain
 #    print(i)   #it will print all the elements of the list
 #for col in dataframe1:
 #    print(col)  # it will print the column names of the dataframe 
+# This will help us to see all the column names without having fullstop ....
+# Also we get to know how to traverse in a dataframe 
 analysis.rename(columns={'CMP':'CMP_Rs', 'MarCap_Cr':'MarCap_Cr_Rs'})
 
 #String is identified by Python interpretor as -> a = ''
