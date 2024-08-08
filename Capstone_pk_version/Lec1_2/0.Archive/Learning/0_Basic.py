@@ -81,6 +81,11 @@ Haan, list aur dictionary bhi Python mein data types hote hain. Yeh dono contain
 #D.keys() type are dict_keys and D.values() type are dict_values. Both are not of list type
 #S.index is (not a list, it is pandas index type) and S.values is a array. Thus we can traverse like list. Thus, there are command like sort_values() and sort_index()
 #Dataframe df has df.columns, df.index. Also, df.values work is python. In case of renaming it, we need to write if it is column or index
+#Traversing elements in list and dataframe is like
+#for i in list1:
+#    print(i)   #it will print all the elements of the list
+#for col in dataframe1:
+#    print(col)  # it will print the column names of the dataframe 
 analysis.rename(columns={'CMP':'CMP_Rs', 'MarCap_Cr':'MarCap_Cr_Rs'})
 
 #String is identified by Python interpretor as -> a = ''
